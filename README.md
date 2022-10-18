@@ -27,7 +27,7 @@ La interface la diseñamos teniendo en cuenta el concepto syfy que propone la se
 -	**JavaScript**
  
 
-El proyecto puede visitarse [aqui](https://roci16.github.io/Tp-Apis/index.html)
+El proyecto puede visitarse [aqui](https://florencialarreategui.github.io/Rick-Morty-API/)
 
  ### Realizado por:
 -	👧 Florencia Larreategui

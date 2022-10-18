@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/55efe9bfd6.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="imagenes/favicon-verde.png" type="image/png" />
+
+</head>
+
+<body>
+
+
+    <header>
+        <h1>Rick and Morty</h1>
+        <img src="imagenes/rick-and-morty-en-nave-4518.jpg" alt="" id="hero">
+        <div id="div-modos"><i class="fas fa-moon"></i><i class="fas fa-sun"></i></div>
+
+    </header>
+
+    <nav>
+        <button id="boton-capitulos">
+            Episode
+        </button>
+        <button id="boton-personajes">
+            Character
+        </button>
+        <button id="boton-universos">
+            Location
+        </button>
+        <div id="div-input-busqueda">
+            <label id="form-busqueda-capitulos"> what are we looking for, Rick?
+                <input id="input-busqueda-capitulos" type="text" placeholder="Search episodes" >
+            </label>
+            <label id="form-busqueda-personaje"> Who are we looking for, Rick?
+                <input id="input-busqueda-personaje" type="text" placeholder="Search character" >
+            </label>
+            <label id="form-busqueda-universos"> Where are we going, Rick?
+                <input id="input-busqueda-universos" type="text" placeholder="Search location" >
+            </label>
+            <label>
+                Sort:
+                <select id="select-ordenar">
+                    <option value="sort">Sort</option>
+                    <option value="a/z">A/Z</option>
+                    <option value="z/a">Z/A</option>
+                </select>
+            </label>
+        </div>
+
+    </nav>
+    <main>
+        <article id="tarjetas-principales">
+            <section aria-label="card 1"  id="seccion-tarjeta" class="tarjetas-orden"></section>
+        </article>
+        <section id="tarjeta-detalles"></section>
+        <div id="not-found">
+            <img src="./imagenes/not-found.png" alt="Not found">
+        </div>
+
+        <!-- Paginado personajes pag principal -->
+        <article id="botones-paginado-principal">
+            <button id="primera-pagina">First page</button>
+            <button id="prev">Prev</button>
+            <span class="numero-paginado" id="numero-pagina">1</span>
+            <button id="next">Next</button>
+            <button id="ultima-pagina">Last page</button>
+        </article>
+
+        <!-- Páginado personaje en busqueda -->
+        <section id="resultado-tarjetas" class="tarjetas-orden"></section>
+        <article id="botones-paginado-busqueda">
+            <button id="primera-pagina-busqueda">First page</button>
+            <button id="prev-busqueda">Prev</button>
+            <span class="numero-paginado" id="numero-pagina-busqueda">1</span>
+            <button id="next-busqueda">Next</button>
+            <button id="ultima-pagina-busqueda">Last page</button>
+        </article>
+
+
+
+    </main>
+    <footer>
+
+        <img src="imagenes/footer-png.png" alt="">
+
+        <div id="redes-footer">
+            <h3>Made with love♥</h3>
+            <a href="https://github.com/florencialarreategui">
+                <h5>Github Flor</h5>
+            </a>
+            <a href="https://github.com/Roci16">
+                <h5>Github Roci</h5>
+            </a>
+        </div>
+    </footer>
+
+    </div>
+    <script src="index.js"></script>
+
+</body>
+
+</html>

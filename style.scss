@@ -1,0 +1,20 @@
+ @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap');
+ @import "variables-mixin";
+ @import "modo-oscuro";
+ @import "header";
+ @import "nav";
+ @import "main";
+ @import "footer";
+ @import "responsive";
+
+ * {
+     margin: 0;
+ }
+
+ 
+ body {
+     background: $color-background;
+     background: linear-gradient(90deg, $color-background 0%, $color-boton 35%, rgba(242, 236, 32, 1) $full);
+     
+ }
